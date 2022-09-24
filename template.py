@@ -25,6 +25,7 @@ list_of_files = [
     "requirements.txt",
     "requirements_dev.txt",
     "setup.py",
+    "pyproject.toml",
     "setup.cfg",
     "tox.ini"           # helps testing in multiple environments
 ]
