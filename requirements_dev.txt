@@ -1,0 +1,11 @@
+ipywidgets
+notebook
+ensure      # Checks Arguments
+py-youtube
+
+# dev requirements
+pytest
+tox
+black       # For formatting
+flake8      # For linting
+mypy        # For type check
