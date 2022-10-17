@@ -55,8 +55,9 @@ def render_YouTube_video(URL: str, width: int = 780, height: int = 600) -> str:
             vid_ID = data["id"]
             embed_URL = f"https://www.youtube.com/embed/{vid_ID}?start={time}"
             logger.info(f"embed URL: {embed_URL}")
-            iframe = f"""<iframe 
-            width="{width}" height="{height}"
+            iframe = f"""<iframe
+            width="{width}"
+            height="{height}"
             src="{embed_URL}"
             title="YouTube video player"
             frameborder="0"
